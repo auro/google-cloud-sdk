@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+  google-cloud-sdk:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    entrypoint: tail -f /dev/null
